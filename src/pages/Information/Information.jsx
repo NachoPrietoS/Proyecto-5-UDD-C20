@@ -1,6 +1,6 @@
 const Information = () => {
     return (
-        <p>Aqui va la informacion</p>
+        <p>Aqui va la informacion que deseo agregar</p>
     )
 }
 
