@@ -1,16 +1,42 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PROYECTO 5: Aplicación Web con React
+## Alumno: Ignacio Prieto
 
-Currently, two official plugins are available:
+A brief description of what this project does and who it's for
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Explorador de Anime y Manga (Jikan API Client)
+Este proyecto es una aplicación web dinámica desarrollada con React y Material UI (MUI). Su objetivo principal es demostrar el consumo eficiente de una API externa (Jikan API) para mostrar información de Top Animes y Mangas, además de integrar contenido aleatorio.
 
-## React Compiler
+Tecnologías y Librerías Utilizadas
+Categoría - Librería
+Framework - React (Vite/CRA)
+Estilos/UI - Material UI (MUI)
+Llamadas HTTP - Axios
+Rutas - React Router DOM v6
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+API y Endpoints Consumidos
+Este proyecto interactúa con la Jikan API (API no oficial de MyAnimeList), una API pública que no requiere clave de autenticación (API Key).
 
-## Expanding the ESLint configuration
+Endpoint - Método HTTP - Uso en el Proyecto
+/top/anime - GET - Obtener las listas de los animes mejor calificados.
+/top/manga - GET - Obtener las listas de los mangas mejor calificados.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Guía de Instalación
+Sigue estos pasos para clonar el repositorio, instalar las dependencias e iniciar el proyecto en tu máquina local.
+1. Clonar el Repositorio: Abre tu terminal y ejecuta el siguiente comando para clonar el proyecto desde GitHub:
+Bash
+git clone https://github.com/NachoPrietoS/Proyecto-5-UDD-C20.git
+
+Navega al directorio del proyecto:
+Bash
+cd Proyecto-5-UDD-C20
+
+2. Instalación de DependenciasAntes de iniciar el servidor, debes instalar todas las librerías listadas anteriormente (Axios, MUI, Router, etc.).Ejecuta el siguiente comando:
+Bash
+npm install
+
+3. Iniciar el ProyectoUna vez que las dependencias estén instaladas, puedes iniciar el servidor de desarrollo.
+Bash
+npm run dev
+
+El proyecto se abrirá automáticamente en tu navegador, generalmente en la dirección http://localhost:5173 (si estás usando Vite) o http://localhost:3000.
