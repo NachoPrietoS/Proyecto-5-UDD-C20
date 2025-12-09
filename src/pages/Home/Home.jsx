@@ -5,9 +5,10 @@ import {
     Typography, 
     Grid, 
     CircularProgress, 
-    Alert, 
+    Alert,
+    Box, 
     Container 
-} from '@mui/material'; 
+} from '@mui/material';
 
 import SelectionButtons from '../../components/SelectionButtons'; 
 import ContentCard from '../../components/ContentCard'; 
